@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Apgūtie Tagi</title>
+    <meta charset="UTF-8">
+<style>
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+        
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>Šodien apgūtie HTML tagi</h1>
+<h2>Rindkopu tagi</h2>
+<p>&ltp&gt - uzsākt rindkopu un &lt/p&gt nobeigt rindkopu, kur starp šiem tagiem ir izvēlētais teksts.</p>
+<h2>Virsrakstu tagi</h2>
+<p>&lth1&gt un &lt/h1&gt - pirmā līmeņa visraksti; &lth2&gt un &lt/h2&gt - otrā līmeņa virsraksti; &lth3&gt un &lt/h3&gt - 3.; utt.</p>
+<h2>Jaunas rindas tagi</h2>
+<p>&ltbr&gt - lietojot rindas beigās, no tās vietas atdala šo rindu no nākošajām</p>
+<button onclick="myFunction()">Toggle dark mode</button>
+
+<script>
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
+</script>    
+
+</body>
+</html>
