@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tabulas 2</title>
+		<meta charset="UTF-8"> 
+	</head>
+	<body>
+	<h1>Šūnu apvienošana</h1>
+	<p>Parasta tabula 3x3</p>
+	<table border="1">
+<tr>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr> 
+<td>4</td>
+<td>5</td>
+<td>6</td>
+</tr>
+<tr>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+</tr>
+	</table>
+	<p>Apvienotas divas šūnas 1. rindā (colspan)</p>
+    <table border="1">
+        <tr>
+        <td>1</td>
+        <td colspan="2">2 2 2 2</td>
+        </tr>
+        <tr> 
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        </table>
+        <p>Apvienotas trīs šūnas 2. rindā</p>
+        <table border="1">
+        <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        </tr>
+        <td colspan="3">4 4 4 4 4 4</td>
+        <tr>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+        </tr>
+        </table>
+        <p>Apvienotas divas šūnas starp 1. un 2. rindu (rowspan)</p>
+    <table border="1">
+<tr> 
+<td>1</td>
+<td rowspan="2">2 <td>3</td> </td>
+</tr>
+<tr>
+<td>4</td>
+<td>6</td>
+</tr>
+<tr>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+</tr>
+	</table>
+    <p>Apvienotas trīs šūnas starp 1., 2. un 3. rindu</p>
+	<table border="1">
+        <tr> 
+        <td>1</td>
+        <td rowspan="3">2 <td>3</td> </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>6</td>
+            </tr>
+        <tr>
+            <td>7</td>
+            <td>9</td>
+        </tr>
+        </table>
+	</body>
+</html>
